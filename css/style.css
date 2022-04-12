@@ -64,7 +64,7 @@ nav {
 	height:60px;
 	background-color:#00000093;
 	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
-	padding:0px 1%;
+	
  
 }
 
@@ -521,145 +521,95 @@ footer{
  color:#120538;
 }
 
-@media screen and (max-width:1200px){
- *{
-  box-sizing: border-box;
- }
-   .nav {
-      display:inline ;
-      
-   }
+@media screen and (max-width:784px){
+
+.nav{
+   width: 90%;
+   padding: 0%;
+}
+   
    .logo{
-      width: 200px;
+      width: 100px;
   }
    .banner{
-      height: 460px;
-      left: 90%;
-      transform: translateX(-90%);
+width: 100%;
      }
      
    .text-container p:nth-child(1){
-    font-family: calibri;
-    font-weight:bold;
-    color:#ffffff;
-    font-size:22px;
-    margin:20px 80px;
+  width: 100%;
+  float: none;
    }
   
 
  .text-container{
-  top:26%;
+  width: 100px;
  }
  .text-container button{
-  margin: 2px;
+width: 200px;
+float: none;
  }
  .about-container{
-  width:90%;
-  border-radius: 10px;
+  width:100%;
+
  }
  .lol-container img{
-  height: 200px;
+  width: 200px;
  }
  .about-text{
-  width: 400px;
+  width: 100px;
+  top: 20%;
  }
  .about-text p:nth-child(1){
-  font-size: 20px;
+   width: 100%;
  }
  .about-text p:nth-child(2){
-  font-size: 10px;
+   width: 100%;
  }
  
  .about-text p:nth-child(3),
  .about-text p:nth-child(4){
-  font-size: 14px;
+   width: 100%;
  }
  
  .box-container{
-  justify-content: center;
-  flex-wrap: wrap;
+ width: 100%;
  }
 
  .box-1,.box-2,.box-3{
-  flex-grow: 1;
-  margin: 10px;
+ width: 95%;
  }
+.card{
+   width: 200px;
+   bottom: 30px;
+}
 
 
-
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1200px){
  
    section{
       background-image:none;
       background-color:#f7f7f7;
      }
-.banner{
-   display: none;
-  }
 
  .text-container{
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  width: 80%;
+width: 60%;
  }
- nav ul{
-   margin: 0px;
-   padding: 0px;
-   background-color: #ebeef4;
-   flex-direction: column;
-   position: fixed;
-   left: 0;
-   top: 0;
-   width:100%;
-   height: 100vh;
-   box-sizing: border-box;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   z-index: 1;
-   display: none;
-   
-  }
-  nav ul li{
-   padding: 10px;
-  }
-  nav ul li a{
-   font-family: calibri;
-   font-size: 1.4em;
-   text-transform: uppercase;
-   color:#5c5c5c;
-  }
-  nav ul li a:hover{
-   color:#121212;
-  }
+ .text-container button{
+   width: 60%;
+   float: none;
+    }
+
 
  .lol-container{
-  top: 0px;
-  flex-direction: column;
-  width:80%;
-  height: auto;
-  bottom: 100px;
-  padding: 20px 0px;
-  align-items: center;
-  
+width: 90%;
  }
 
  .about-text{
-  width:90%;
+  width:100%;
   text-align: center;
  }
  .god {
-    position: relative;
-    width: 300px;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.5s;
-    z-index: 1;
-    left: 45%;
-
+   width: 90%;
    }
 
  footer p:nth-child(1){
